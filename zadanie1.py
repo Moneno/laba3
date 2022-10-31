@@ -22,6 +22,7 @@ time2 = timeit.default_timer() - start_time
 
 print(str(a) + " отсортирован пузырьковой сортировкой за время: " + str(time1) )
 print(str(b) + " отсортирован методом sort() за время: " + str(time2))
+print("Сложность алгоритма = O(n^2)")
 
 
 
